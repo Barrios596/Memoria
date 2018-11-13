@@ -1,0 +1,1 @@
+export default () => ["fa-adn", "fa-angellist", "fa-apple", "fa-firefox", "fa-aws", "fa-btc", "fa-codepen", "fa-connectdevelop", "fa-chrome", "fa-empire"]

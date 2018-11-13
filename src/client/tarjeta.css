@@ -1,0 +1,24 @@
+.tarjeta {
+    width: 125px;
+    height: 125px;
+}
+
+.encima {
+    width: 125px;
+    height: 125px;
+    background-color: #E0DFD5;
+}
+
+.debajo {
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F06543;    
+}
+
+.ReactFlipCard{
+    width: 100%;
+    height: 100%;
+}

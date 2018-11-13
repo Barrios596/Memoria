@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.titulo {
+    font-size: 30px;
+    padding: 12px; 
+    color: #F09D51;
+}
+
+.subtitulo{
+    font-size: 20px;
+    padding: 15px;
+    color: #F09D51;
+}
+
+.boton-reinicio{
+    font-size: 10px;
+    padding: 15px;
+}
