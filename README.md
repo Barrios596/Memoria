@@ -1,4 +1,4 @@
-# Memoria en React
+# React Boilerplate
 Realizado por Rodrigo Barrios (@Barrios596).
 
 ## Configuración del proyecto
@@ -10,4 +10,3 @@ Realizado por Rodrigo Barrios (@Barrios596).
 	5. Correr "npm install".
 	6. Correr "npm run build".
 	7. Correr "npm start".
-	8. Abrir el puerto 5000 en un navegador (localhost:5000).
