@@ -25,7 +25,17 @@
     "url": "https://github.com/Barrios596/React-Boilerplate/issues"
   },
   "homepage": "https://github.com/Barrios596/React-Boilerplate#readme",
-  "devDependencies": {
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.8",
+    "@fortawesome/free-solid-svg-icons": "^5.5.0",
+    "@fortawesome/react-fontawesome": "^0.1.3",
+    "css-loader": "^1.0.1",
+    "font-awesome": "^4.7.0",
+    "lodash.shuffle": "^4.2.0",
+    "prop-types": "^15.6.2",
+    "react-card-flip": "^0.3.0",
+    "react-flipcard-2": "^0.3.2",
+    "style-loader": "^0.23.1",
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
@@ -45,17 +55,5 @@
     "webpack-dev-server": "^3.1.10",
     "webpack-node": "0.0.0",
     "webpack-node-externals": "^1.7.2"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.8",
-    "@fortawesome/free-solid-svg-icons": "^5.5.0",
-    "@fortawesome/react-fontawesome": "^0.1.3",
-    "css-loader": "^1.0.1",
-    "font-awesome": "^4.7.0",
-    "lodash.shuffle": "^4.2.0",
-    "prop-types": "^15.6.2",
-    "react-card-flip": "^0.3.0",
-    "react-flipcard-2": "^0.3.2",
-    "style-loader": "^0.23.1"
   }
 }
