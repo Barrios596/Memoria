@@ -2,7 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    height: 50px;
+    height: 100px;
     margin-bottom: 10px;
 }
 
@@ -16,9 +16,4 @@ header{
     font-size: 20px;
     padding: 15px;
     color: #F09D51;
-}
-
-.boton-reinicio{
-    font-size: 10px;
-    padding: 15px;
 }

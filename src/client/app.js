@@ -14,7 +14,8 @@ const initState = () =>{
     return{
         baraja,
         parejaSeleccionada: [],
-        estaComparando: false
+        estaComparando: false,
+        pasos: 0
     };
 }
 export default class App extends React.Component {
@@ -29,7 +30,7 @@ export default class App extends React.Component {
     render(){
         return (
             <div className="App">
-                <Encabezado />
+                <Encabezado pasos = {this.state.pasos} />
                 <Tablero
                     baraja={this.state.baraja}
                     parejaSeleccionada={this.state.parejaSeleccionada}
@@ -69,12 +70,20 @@ export default class App extends React.Component {
                     return{...tarjeta, adivinada: true};
                 });
             }
+            this.yaGano(baraja)
             this.setState({
                 parejaSeleccionada: [],
                 baraja,
-                estaComparando: false
+                estaComparando: false,
+                pasos: this.state.pasos + 1
             })
         }, 1000)
+    }
+
+    yaGano(baraja){
+        if(baraja.filter((tarjeta) => !tarjeta.adivinada).length===0){
+            alert(`¡Felicidades! Ganaste en ${this.state.pasos}`)
+        }
     }
 
 }
