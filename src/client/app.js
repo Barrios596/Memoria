@@ -82,7 +82,13 @@ export default class App extends React.Component {
 
     yaGano(baraja){
         if(baraja.filter((tarjeta) => !tarjeta.adivinada).length===0){
-            alert(`¡Felicidades! Ganaste en ${this.state.pasos}`)
+            alert(`¡Felicidades! Ganaste en ${this.state.pasos} pasos`)
+            this.setState({
+                parejaSeleccionada: [],
+                baraja: constructor(),
+                estaComparando:false,
+                pasos: 0
+            })
         }
     }
 
